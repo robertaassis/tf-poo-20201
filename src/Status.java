@@ -1,3 +1,3 @@
 public enum Status {
-    DISPONIVEL, EMPRESTADO
+    DISPONIVEL, EMPRESTADO, RESERVADO
 }
