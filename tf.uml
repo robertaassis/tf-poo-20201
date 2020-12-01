@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-2.5" y="379.5">Status</node>
+    <node x="160.0" y="105.0">Item</node>
+    <node x="362.0" y="-27.0">Funcionario</node>
+    <node x="104.5" y="-27.0">Biblioteca</node>
+    <node x="148.0" y="225.0">Revista</node>
+    <node x="-8.0" y="105.0">Jornal</node>
+    <node x="307.5" y="93.0">Livro</node>
+    <node x="245.5" y="373.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Funcionario" target="Biblioteca">
+      <point x="-78.0" y="-0.0" />
+      <point x="95.5" y="-0.0" />
+    </edge>
+    <edge source="Biblioteca" target="Item">
+      <point x="0.0" y="27.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="Revista" target="Item">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Jornal" target="Item">
+      <point x="48.0" y="-0.0" />
+      <point x="-40.0" y="-0.0" />
+    </edge>
+    <edge source="Livro" target="Item">
+      <point x="-52.5" y="-0.0" />
+      <point x="40.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Directed Orthogonal" zoom="1.0" x="255.0" y="237.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
